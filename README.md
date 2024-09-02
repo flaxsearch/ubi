@@ -2,7 +2,7 @@
 
 # User Behavior Insights
 
-UBI (or User Behavior Insights) is a(nother) naive attempt to create **a standard open source format to define and share user event tracking information**. The format is defined as a JSON Schema to validate queries and events defined as JSON objects.
+UBI (or User Behavior Insights) is a(nother) attempt to create **a standard open source format to define and share user event tracking information**. The format is defined as a JSON Schema to validate queries and events defined as JSON objects.
  
 <a href='https://github.com/o19s/ubi/releases'>
   <img alt="Version Badge" src="https://img.shields.io/github/v/release/o19s/ubi">
@@ -27,12 +27,13 @@ UBI (or User Behavior Insights) is a(nother) naive attempt to create **a standar
 
 Many Search teams struggle with understanding "Why is my user doing this". They have great understanding of an incoming query and the documents returned, but no ability to connect that dot with an indicator of success, such as a click through event or add to cart event.
 
-There are A LOT of tools out there for tracking events, Google Analytics, Snowplow, etc, but each is a bit different, and each tends to lock you in. None of them think about the needs of Search teams specifically either.
+There are A LOT of tools out there for tracking events, Google Analytics, Adobe, etc, but each is a bit different, and each tends to lock you in. None of them think about the needs of Search teams specifically either.
 
 The User Behavior Insights standard attempts to provide a search focused standard that can operate across many platforms. There are implementations for
  * [OpenSearch](https://github.com/o19s/documentation-website/tree/ubi-docs-consolidation/_search-plugins/ubi)
  * [Apache Solr](https://github.com/apache/solr/pull/2452)
 
+We're also reaching out to the teams behind many other search engines to ask them if they could add an implementation for their platform.
 
 ## 🪛 How to use it
 
@@ -139,6 +140,7 @@ We sometimes refer to this shortcut architecture as "the Panama Canal", as in ta
 
 * OpenSearchCon EU - [User Behavior Insights](https://www.youtube.com/watch?v=dH7SPHKpxo0&list=PLzgr9zSpws14zCETcKtCBwcOuTGMccpV9&index=32)
 * Haystack Conf 2024 - [Your Search Engine Needs a Memory](https://www.youtube.com/watch?v=QltMXXHcwTI)
+* MICES 2024 - [User behavior insights](https://youtu.be/8_4VRtMWtSY) & [slides](https://mices.co/slides/user-behavior%20insights-mices-2024.pdf) 
 
 ## 🎨 Who uses it
 
